@@ -11,10 +11,6 @@ Text Domain: rabbitandthorn
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,700,300,400);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
-@import url("font-awesome.min.css");
-@import url("bootstrap.min.css");
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.7.0");
@@ -2286,13 +2282,6 @@ Text Domain: rabbitandthorn
     1.0 - Google Fonts
 --------------------------------------------------------------*/
 /* Roboto Condensed */
-/* Open Sans */
-/*--------------------------------------------------------------
-    2.0 - Font Awesome 4.7.0
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-    3.0 - Boostrap Grid System
---------------------------------------------------------------*/
 /*--------------------------------------------------------------
     4.0 - Reset
 --------------------------------------------------------------*/
