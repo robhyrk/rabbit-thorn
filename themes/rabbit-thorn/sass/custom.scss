@@ -1,0 +1,85 @@
+@mixin tablet {
+	@media (min-width: 768px) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+}
+
+span.wpcf7-list-item {
+    display: block;
+    margin: 0;
+}
+
+#media-container {
+    img {
+        height:100%;
+        object-fit: cover;
+    }
+}
+
+.btn.md{
+    background-color: #161616;
+    color:white;
+}
+
+#menu-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @media(min-width: 993px) {
+        flex-direction: row;
+    }
+    .sub-menu {
+        background:white;
+    }
+}
+
+.content-grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 2rem;
+    @include tablet {
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: start;
+    }
+}
+
+.attachment-post-thumbnail {
+    width:100%;
+    height: auto;
+}
+
+#nav-menu {
+    float:none;
+}
+.insta-grid {
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+}
+
+.appointment {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:2rem;
+    @media(min-width: 993px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    form {
+        p {
+            font-weight:700;
+            span:nth-child(n + 2) {
+                font-weight: 500;
+            }
+        }
+    }
+}

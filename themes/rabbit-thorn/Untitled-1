@@ -1,0 +1,60 @@
+<?php get_header(); ?>
+
+<div id="main">
+
+<!-- ============ Contacts Bar - START ============ -->
+
+<?php get_template_part('template-parts/contact-bar');?>
+
+<!-- ============ Contacts Bar - END ============ -->
+
+<!-- ============ Services - START ============ -->
+
+<div id="service" class="section">
+    <h3 class="text-center mb-5">The Rabbit & The Thorn 
+        is a new tattoo and art studio in Toronto, located in The Junction</h3>
+    <div class="content container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <p>The Rabbit & The Thorn is a representation of feelings we hold most dear -
+                    a meeting of the soft and the sharp; love and creation, blood and pain - life and art need all of these things to exist.</p>
+            </div>
+            <div class="col-md-4">
+                <p>At The Rabbit & The Thorn, we are striving to create a new idea of a tattoo studio - a place where artists can focus on artistic growth, and where the community can engage with our creative vision. While tattooing is our main focus, we hope to use our space for a variety of creative events and ventures.</p>
+            </div>
+            <div class="col-md-4">
+                <p>The Rabbit & The Thorn is a space dedicated to the comfort and respect of all our clients - regardless of race, body type, gender identity, sexual preference or ability level. Our artists strive to make everyone feel welcome in our space, and we are constantly seeking to better ourselves as we learn what works best for our clients.</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ============ Services - END ============ -->
+
+<!-- ============ Call to Action - START ============ -->
+
+<div id="appointment" class="section cta dark">
+
+    <h2>Are you ready to get a tattoo?</h2>
+
+    <div class="cta-info">Request an appointment <strong>NOW</strong>!</div>
+
+    <a class="btn md light" href="appointment.html"><i class="fa fa-thumb-tack"></i>Appointment</a>
+
+</div>
+
+<!-- ============ Call to Action - END ============ -->
+
+<!-- ============ Instagram Banner - START ============ -->
+
+<a class="instagram-bar feed-bg"  href="#">Check out our work on <strong>Instagram</strong></a>
+
+<!-- ============ Instagram Banner - END ============ -->
+
+</div>
+
+    
+<?php get_footer();?>
