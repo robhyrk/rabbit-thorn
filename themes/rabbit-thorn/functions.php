@@ -5,9 +5,9 @@ function rabbit_thorn_files() {
     wp_enqueue_style('rabbit_styles', get_stylesheet_uri('css/style.css'), NULL, microtime());
     wp_enqueue_style('font-awesome', "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
     wp_enqueue_style('bootsrap_styles', "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
-    wp_enqueue_style('fonts', "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400");
-    wp_enqueue_style('fonts', "http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,700,300,400");
-    wp_enqueue_style('fonts', "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400");
+    wp_enqueue_style('fonts', "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400");
+    wp_enqueue_style('fonts', "https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,700,300,400");
+    wp_enqueue_style('fonts', "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400");
     
     wp_enqueue_script( 'jquery' );
     wp_enqueue_script('main_js', get_theme_file_uri('/js/main.js'), array('jquery'), microtime(), true);
